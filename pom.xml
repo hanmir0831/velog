@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hanmir</groupId>
-	<artifactId>javaProject</artifactId>
+	<artifactId>velog</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>javaProject</name>
-	<description>Demo project for Spring Boot</description>
+	<name>velog</name>
+	<description>Velog Clone Coding</description>
 
 	<properties>
 		<java.version>1.8</java.version>

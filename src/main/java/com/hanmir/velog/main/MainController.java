@@ -1,4 +1,4 @@
-package com.hanmir.javaProject.main;
+package com.hanmir.velog.main;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

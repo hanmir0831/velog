@@ -1,4 +1,4 @@
-package com.hanmir.javaProject;
+package com.hanmir.velog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
