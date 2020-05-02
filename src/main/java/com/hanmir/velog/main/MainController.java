@@ -11,10 +11,10 @@ public class MainController {
 		return "main/index";
 	}
 	
-	@RequestMapping(value="/home")
+	@RequestMapping(value="/recent")
 	public String home() {
 		System.out.println("Hello World!!");
 		
-		return "main/home";
+		return "main/recent";
 	}
 }

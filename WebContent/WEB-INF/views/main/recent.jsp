@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>velog</title>
+	<title>최신 포스트 - velog</title>
 </head>
 <body>
 	<div id="root">
@@ -19,7 +19,7 @@
 			<div id="menu">
 				<div id="menu_area">
 					<div>
-						<a href="/"><h3>트렌딩</h3></a>
+						<a href="/"><h3 class="active">트렌딩</h3></a>
 					</div>
 					<div>
 						<a href="/recent"><h3>최신</h3></a>
