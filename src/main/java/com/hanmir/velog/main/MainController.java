@@ -13,8 +13,12 @@ public class MainController {
 	}
 	
 	@RequestMapping(value="/recent")
-	public String home() {
-		System.out.println("Hello World!!");
+	public String recent() {
 		return "main/recent";
+	}
+	
+	@RequestMapping(value="/search")
+	public String search() {
+		return "main/search";
 	}
 }

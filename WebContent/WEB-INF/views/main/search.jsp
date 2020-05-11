@@ -6,13 +6,12 @@
 	
 	<link rel="stylesheet" type="text/css" href="resources/css/main/main_common.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/main/main_header.css">
-	<link rel="stylesheet" type="text/css" href="resources/css/main/main_section.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/main/main_search.css">
 	<title>최신 포스트 - velog</title>
 </head>
 <body>
 	<div id="root">
 		<%@ include file="/template/main/main_header.jsp" %>
-		<%@ include file="/template/main/main_section.jsp" %>
 	</div>
 </body>
 </html>

@@ -1,0 +1,21 @@
+#menu_area {
+	height: 100%;
+	width: 80%;
+	display: flex;
+	align-items: center;
+}
+#menu {
+	margin-top: 1.5rem;
+}
+.menu_btn {
+	width: 7rem;
+}
+
+.main_frame {
+	flex: 1 1 0%;
+}
+.main_content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem;
+}

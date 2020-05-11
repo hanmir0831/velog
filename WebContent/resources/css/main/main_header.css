@@ -1,0 +1,41 @@
+.center_frame {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#top {
+	height: 4rem;
+}
+
+#top_area {
+	height: 100%;
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.top_area_text{
+	font-size: 18px;
+}
+
+#right_area {
+	display: flex;
+	position: relative;
+}
+
+#search {
+	margin-right: 0.75rem;
+}
+
+#login {
+	height: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-radius: 1rem;
+	font-size: 1rem;
+	background-color: #414141;
+	border-style: none;
+	color: #fff;
+	font-weight: bold;
+}
