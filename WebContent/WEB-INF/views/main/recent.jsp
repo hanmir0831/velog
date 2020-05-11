@@ -4,12 +4,12 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<link rel="stylesheet" type="type/css" href="">
+	<link rel="stylesheet" type="type/css" href="/css/main/main.css">
 	
 	<title>최신 포스트 - velog</title>
 	<script src=></script>
 </head>
 <body>
-	<header include-html="/index.jsp"></header>
+	<jsp:include page="/template/main/main_header.jsp"></jsp:include>
 </body>
 </html>
