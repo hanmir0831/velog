@@ -54,16 +54,39 @@
 		</dependency>
 		
 		<dependency>
-		 <groupId>org.springframework</groupId>
-		  <artifactId>spring-context</artifactId>
-		   </dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		   
 		<dependency>
-		 <groupId>org.springframework</groupId>
-		  <artifactId>spring-webmvc</artifactId>
-		   </dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		
+		<!-- JSON -->
+		<dependency>
+		    <groupId>net.sf.json-lib</groupId>
+		    <artifactId>json-lib-ext-spring</artifactId>
+		    <version>1.0.2</version>
+		</dependency>
+
+		
+		<dependency> 
+			<groupId>org.codehaus.jackson</groupId> 
+			<artifactId>jackson-mapper-asl</artifactId> 
+			<version>1.6.4</version> 
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-core</artifactId>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		</dependency>
 		
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
