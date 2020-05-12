@@ -12,6 +12,14 @@
 <body>
 	<div id="root">
 		<%@ include file="/template/main/main_header.jsp" %>
+		<div id="search_div">
+			<div id="input_div" for="#input_box input">
+				<div id="input_box">
+					<h6>돋보기</h6>
+					<input placeholder="검색어를 입력하세요" autofocus>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 </html>

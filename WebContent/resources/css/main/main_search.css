@@ -1,0 +1,28 @@
+#search_div {
+	margin-top: 3.5rem;
+	width: 768px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input_box {
+	display: flex;
+	align-items: center;
+	cursor: text;
+	height: 4rem;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #646464;
+	border-image: initial;
+	padding: 0px 1.5rem;
+}
+
+#input_box input {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	height: 2rem;
+	color: #232323;
+	background: #F8F9FA;
+	border-style: none;
+	outline: 0px;
+}

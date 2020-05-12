@@ -14,5 +14,8 @@
 		<%@ include file="/template/main/main_header.jsp" %>
 		<%@ include file="/template/main/main_section.jsp" %>
 	</div>
+	<h1>${postCount}</h1>
+	
+	<script src=""></script>
 </body>
 </html>
