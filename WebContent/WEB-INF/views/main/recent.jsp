@@ -3,11 +3,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<title>최신 포스트 - velog</title>
+	
+	<%@ include file="/resources/include/jsList.jsp" %>
 	
 	<link rel="stylesheet" type="text/css" href="resources/css/main/main_common.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/main/main_header.css">
 	<link rel="stylesheet" type="text/css" href="resources/css/main/main_section.css">
-	<title>최신 포스트 - velog</title>
 </head>
 <body>
 	<div id="root">

@@ -10,12 +10,12 @@
 			</div>
 		</div>
 	</div>
-	<section>
+	<section id="main_section">
 		<main class="main_frame">
 			<div class="main_content">
 				<c:forEach var="item" items="${data}" varStatus="status">
 					<div class="post_card">
-						<a class="post_thumbnail">
+						<a class="post_thumbnail" src="/@mirmir/test1">
 							<div class="thumbnail_image_box" style="padding-top:50%">
 								<img src="/resources/img/temp/dummy.jpg">
 							</div>
@@ -29,7 +29,7 @@
 							</a>
 							<div class="sub_info">
 								<span class="create_date">2020년 5월 12일</span>
-								<span class="separator">.</span>
+								<span class="separator">·</span>
 								<span class="comment_count"> <c:out value="${ status.index }"/> 개의 댓글</span>
 							</div>
 						</div>
@@ -51,6 +51,40 @@
 			</div>
 		</main>
 		<aside class="right_sidebar">
+			<div>
+				<div>
+					<section class="notice">
+						<h4>공지사항</h4>
+						<ul>
+							<li>a
+							</li>
+							<li>b
+							</li>
+							<li>c
+							</li>
+						</ul>
+					</section>
+					<section class="tags">
+						<h4>인기 태그</h4>
+						<ul>
+							<li>a
+							</li>
+							<li>b
+							</li>
+							<li>c
+							</li>
+						</ul>
+					</section>
+					<div class="footer">
+						<div class="links">
+							<a>문의</a>
+							<a>Slack 채널</a>
+							<a>서비스 정책</a>
+						</div>
+						<div class="copyright">© 2020 · velog</div>
+					</div>
+				</div>
+			</div>
 		</aside>
 	</section>
 </div>

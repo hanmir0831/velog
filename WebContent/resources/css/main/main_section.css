@@ -1,6 +1,6 @@
 #body_div {
 	height: 100%;
-	width: 80%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -18,7 +18,7 @@
 	width: 7rem;
 }
 
-section {
+#main_section {
 	display: flex;
 	margin-top: 2rem;
 }
