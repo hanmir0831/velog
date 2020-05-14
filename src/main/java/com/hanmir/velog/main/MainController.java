@@ -35,4 +35,9 @@ public class MainController {
 	public String search() {
 		return "main/search";
 	}
+	
+	@RequestMapping(value="/vue")
+	public String vueTest()  {
+		return "vue/index";
+	}
 }
